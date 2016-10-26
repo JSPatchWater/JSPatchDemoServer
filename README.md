@@ -7,7 +7,9 @@ js热更新文件位于webapps/jspatch_api/patchfile目录下
 * cd到webapps/jspatch_api/src目录下
 * 然后键入命令：sh compileAll.sh
 * 然后重启下tomcat服务器，重启步骤如下面所示：
+
    * cd到tomcat的bin目录下
+   * 如果tomcat服务已经启动，需要重启tomcat，请先键入命令：shutdown(Mac或者Linux下输入：sh showdown.sh) 
    * 然后键入命令：catalina debug(Mac或者Linux下输入：sh catalina.sh debug)
    * 之后再键入run(即以调试的方式启动服务器)
 
