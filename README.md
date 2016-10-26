@@ -17,6 +17,7 @@ js热更新文件位于webapps/jspatch_api/patchfile目录下
  [http://blog.csdn.net/smoothiemiss/article/details/51723812](http://blog.csdn.net/smoothiemiss/article/details/51723812)
  
 配置js文件路径和密钥
+
     * 修改 WEB-INF/classes 下的 config.properties
     * 配置热更新js文件的根路径
     * 修改 WEB-INF/classes 下的 keys.properties
