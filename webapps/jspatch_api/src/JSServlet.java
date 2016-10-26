@@ -9,10 +9,6 @@ import javax.servlet.http.HttpServletResponse;
 
 public class JSServlet extends HttpServlet{
 
-
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = -2910730214903663112L;
 
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -29,11 +25,12 @@ public class JSServlet extends HttpServlet{
         
 		String version = req.getParameter("v");
 		PrintWriter out = resp.getWriter();
-        //将JS文件的MD5值作为文件的版本号
+        	//将JS文件的MD5值作为文件的版本号
 		resp.setHeader("version", jsFile.getMd5());
         
-		//下发的JS文件版本与上个版本相同，及JS文件没有修改
-        if (version != null && version.trim().length() > 0) {
+        	if (version != null && version.trim().length() > 0) {
+			//比较将要下发的热更新JS脚本文件MD5值 与 客户端的version(上次下方的热更新JS脚本的MD5值)，
+			//如果这两个字符串一样表示JS文件没有修改
 			if (jsFile.getMd5().equalsIgnoreCase(version)) {
 				out.print("");
 				return;
@@ -41,13 +38,13 @@ public class JSServlet extends HttpServlet{
 		}
         
 		String content = jsFile.getBody();
-        String pkKey = getPK(uri);
-        String pk = KeysUtils.getPK(pkKey);
+        	String pkKey = getPK(uri);
+        	String pk = KeysUtils.getPK(pkKey);
         
 		if (pk != null) {
 			try {
-                //对JS脚本内容进行加密
-                content = Des3Util.encode(content, pk);
+                		//对JS脚本内容进行DES加密
+                		content = Des3Util.encode(content, pk);
 			} catch (Exception e) {
 				e.printStackTrace();
 				content = "";
