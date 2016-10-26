@@ -29,7 +29,7 @@ public class JSServlet extends HttpServlet{
 		resp.setHeader("version", jsFile.getMd5());
         
         	if (version != null && version.trim().length() > 0) {
-			//比较将要下发的热更新JS脚本文件MD5值 与 客户端的version(上次下方的热更新JS脚本的MD5值)，
+			//比较将要下发的热更新JS脚本文件MD5值 与 客户端的version(上一次下发成功的热更新JS脚本的MD5值)，
 			//如果这两个字符串一样表示JS文件没有修改
 			if (jsFile.getMd5().equalsIgnoreCase(version)) {
 				out.print("");
