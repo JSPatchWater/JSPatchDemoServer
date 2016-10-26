@@ -1,0 +1,684 @@
+十月 25, 2016 10:19:46 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.72
+十月 25, 2016 10:19:46 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Sep 14 2016 12:12:26 UTC
+十月 25, 2016 10:19:46 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.72.0
+十月 25, 2016 10:19:46 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Mac OS X
+十月 25, 2016 10:19:46 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.11.6
+十月 25, 2016 10:19:46 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          x86_64
+十月 25, 2016 10:19:46 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre
+十月 25, 2016 10:19:46 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_91-b14
+十月 25, 2016 10:19:46 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+十月 25, 2016 10:19:46 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         /Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:19:46 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         /Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:19:46 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=/Users/wangliang/Pictures/apache-tomcat-7.0.72/conf/logging.properties
+十月 25, 2016 10:19:46 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十月 25, 2016 10:19:46 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+十月 25, 2016 10:19:46 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=/Users/wangliang/Pictures/apache-tomcat-7.0.72/endorsed
+十月 25, 2016 10:19:46 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=/Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:19:46 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=/Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:19:46 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=/Users/wangliang/Pictures/apache-tomcat-7.0.72/temp
+十月 25, 2016 10:19:46 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/wangliang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+十月 25, 2016 10:19:47 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:19:47 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:19:47 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 877 ms
+十月 25, 2016 10:19:47 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十月 25, 2016 10:19:47 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.72
+十月 25, 2016 10:19:47 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/docs
+十月 25, 2016 10:19:47 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/docs has finished in 359 ms
+十月 25, 2016 10:19:47 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/examples
+十月 25, 2016 10:19:47 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/examples has finished in 250 ms
+十月 25, 2016 10:19:47 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/host-manager
+十月 25, 2016 10:19:47 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/host-manager has finished in 53 ms
+十月 25, 2016 10:19:47 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/manager
+十月 25, 2016 10:19:47 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/manager has finished in 45 ms
+十月 25, 2016 10:19:47 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/ROOT
+十月 25, 2016 10:19:47 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/ROOT has finished in 32 ms
+十月 25, 2016 10:19:48 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:19:48 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:19:48 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 802 ms
+十月 25, 2016 10:20:48 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/jspatch-v0.0.5.war
+十月 25, 2016 10:20:48 上午 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+信息: validateJarFile(/Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/jspatch-v0.0.5/WEB-INF/lib/javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+十月 25, 2016 10:20:48 上午 org.apache.catalina.deploy.WebXml setVersion
+警告: Unknown version string [3.1]. Default version will be used.
+十月 25, 2016 10:20:48 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十月 25, 2016 10:20:48 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/jspatch-v0.0.5.war has finished in 138 ms
+十月 25, 2016 10:28:16 上午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+十月 25, 2016 10:28:16 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:28:16 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:28:16 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+十月 25, 2016 10:28:16 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:28:16 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:28:16 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:28:16 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.72
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Sep 14 2016 12:12:26 UTC
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.72.0
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Mac OS X
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.11.6
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          x86_64
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_91-b14
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         /Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         /Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=/Users/wangliang/Pictures/apache-tomcat-7.0.72/conf/logging.properties
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=/Users/wangliang/Pictures/apache-tomcat-7.0.72/endorsed
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=/Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=/Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=/Users/wangliang/Pictures/apache-tomcat-7.0.72/temp
+十月 25, 2016 10:28:19 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/wangliang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+十月 25, 2016 10:28:19 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:28:19 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 644 ms
+十月 25, 2016 10:28:19 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十月 25, 2016 10:28:19 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.72
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/jspatch-v0.0.5.war
+十月 25, 2016 10:28:19 上午 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+信息: validateJarFile(/Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/jspatch-v0.0.5/WEB-INF/lib/javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+十月 25, 2016 10:28:19 上午 org.apache.catalina.deploy.WebXml setVersion
+警告: Unknown version string [3.1]. Default version will be used.
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/jspatch-v0.0.5.war has finished in 456 ms
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/docs
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/docs has finished in 101 ms
+十月 25, 2016 10:28:19 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/examples
+十月 25, 2016 10:28:20 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/examples has finished in 293 ms
+十月 25, 2016 10:28:20 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/host-manager
+十月 25, 2016 10:28:20 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/host-manager has finished in 47 ms
+十月 25, 2016 10:28:20 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/manager
+十月 25, 2016 10:28:20 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/manager has finished in 44 ms
+十月 25, 2016 10:28:20 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/ROOT
+十月 25, 2016 10:28:20 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/ROOT has finished in 39 ms
+十月 25, 2016 10:28:20 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:28:20 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:28:20 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 1051 ms
+十月 25, 2016 10:34:52 上午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+十月 25, 2016 10:34:52 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:34:52 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:34:52 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+十月 25, 2016 10:34:52 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:34:52 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:34:52 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:34:52 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:34:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.72
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Sep 14 2016 12:12:26 UTC
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.72.0
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Mac OS X
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.11.6
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          x86_64
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_91-b14
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         /Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         /Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=/Users/wangliang/Pictures/apache-tomcat-7.0.72/conf/logging.properties
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=/Users/wangliang/Pictures/apache-tomcat-7.0.72/endorsed
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=/Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=/Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=/Users/wangliang/Pictures/apache-tomcat-7.0.72/temp
+十月 25, 2016 10:34:54 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/wangliang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+十月 25, 2016 10:34:54 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:34:54 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 618 ms
+十月 25, 2016 10:34:54 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十月 25, 2016 10:34:54 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.72
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/jspatch-v0.0.5.war
+十月 25, 2016 10:34:54 上午 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+信息: validateJarFile(/Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/jspatch-v0.0.5/WEB-INF/lib/javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+十月 25, 2016 10:34:54 上午 org.apache.catalina.deploy.WebXml setVersion
+警告: Unknown version string [3.1]. Default version will be used.
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/jspatch-v0.0.5.war has finished in 418 ms
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/docs
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/docs has finished in 77 ms
+十月 25, 2016 10:34:54 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/examples
+十月 25, 2016 10:34:55 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/examples has finished in 317 ms
+十月 25, 2016 10:34:55 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/host-manager
+十月 25, 2016 10:34:55 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/host-manager has finished in 47 ms
+十月 25, 2016 10:34:55 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/manager
+十月 25, 2016 10:34:55 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/manager has finished in 50 ms
+十月 25, 2016 10:34:55 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/ROOT
+十月 25, 2016 10:34:55 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/ROOT has finished in 39 ms
+十月 25, 2016 10:34:55 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:34:55 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:34:55 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 1018 ms
+十月 25, 2016 10:36:32 上午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+十月 25, 2016 10:36:32 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:36:32 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:36:32 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+十月 25, 2016 10:36:32 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:36:32 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:36:32 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:36:32 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:36:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.72
+十月 25, 2016 10:36:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Sep 14 2016 12:12:26 UTC
+十月 25, 2016 10:36:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.72.0
+十月 25, 2016 10:36:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Mac OS X
+十月 25, 2016 10:36:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.11.6
+十月 25, 2016 10:36:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          x86_64
+十月 25, 2016 10:36:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre
+十月 25, 2016 10:36:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_91-b14
+十月 25, 2016 10:36:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+十月 25, 2016 10:36:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         /Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:36:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         /Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:36:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=/Users/wangliang/Pictures/apache-tomcat-7.0.72/conf/logging.properties
+十月 25, 2016 10:36:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十月 25, 2016 10:36:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+十月 25, 2016 10:36:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=/Users/wangliang/Pictures/apache-tomcat-7.0.72/endorsed
+十月 25, 2016 10:36:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=/Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:36:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=/Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:36:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=/Users/wangliang/Pictures/apache-tomcat-7.0.72/temp
+十月 25, 2016 10:36:33 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/wangliang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+十月 25, 2016 10:36:34 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:36:34 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:36:34 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 671 ms
+十月 25, 2016 10:36:34 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十月 25, 2016 10:36:34 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.72
+十月 25, 2016 10:36:34 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/jspatch-v0.0.5.war
+十月 25, 2016 10:36:34 上午 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+信息: validateJarFile(/Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/jspatch-v0.0.5/WEB-INF/lib/javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+十月 25, 2016 10:36:34 上午 org.apache.catalina.deploy.WebXml setVersion
+警告: Unknown version string [3.1]. Default version will be used.
+十月 25, 2016 10:36:34 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十月 25, 2016 10:36:34 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/jspatch-v0.0.5.war has finished in 381 ms
+十月 25, 2016 10:36:34 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/docs
+十月 25, 2016 10:36:34 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/docs has finished in 73 ms
+十月 25, 2016 10:36:34 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/examples
+十月 25, 2016 10:36:34 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/examples has finished in 357 ms
+十月 25, 2016 10:36:34 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/host-manager
+十月 25, 2016 10:36:34 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/host-manager has finished in 44 ms
+十月 25, 2016 10:36:34 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/manager
+十月 25, 2016 10:36:35 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/manager has finished in 48 ms
+十月 25, 2016 10:36:35 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/ROOT
+十月 25, 2016 10:36:35 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/ROOT has finished in 50 ms
+十月 25, 2016 10:36:35 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:36:35 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:36:35 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 1043 ms
+pushd /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/jspatch-v0.0.5/patchfile && git pull && popd
+java.io.FileNotFoundException: /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/jspatch-v0.0.5/patchfile/jspatch/1.0.js (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.dhgh.jspatch.util.ReadFromFile.readFile(ReadFromFile.java:19)
+	at com.dhgh.jspatch.util.JSReader.getJsPatch(JSReader.java:44)
+	at com.dhgh.jspatch.servlet.JSServlet.doGet(JSServlet.java:31)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1083)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:640)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+java.io.FileNotFoundException: /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/jspatch-v0.0.5/patchfile/jspatch/1.0.js (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.dhgh.jspatch.util.ReadFromFile.readFile(ReadFromFile.java:19)
+	at com.dhgh.jspatch.util.JSReader.getJsPatch(JSReader.java:44)
+	at com.dhgh.jspatch.servlet.JSServlet.doGet(JSServlet.java:31)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1083)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:640)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+pushd /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/jspatch-v0.0.5/patchfile && git pull && popd
+十月 25, 2016 10:47:04 上午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+十月 25, 2016 10:47:04 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:47:04 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:47:04 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+十月 25, 2016 10:47:04 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:47:04 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:47:04 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:47:04 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.72
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Sep 14 2016 12:12:26 UTC
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.72.0
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Mac OS X
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.11.6
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          x86_64
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_91-b14
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         /Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         /Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=/Users/wangliang/Pictures/apache-tomcat-7.0.72/conf/logging.properties
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=/Users/wangliang/Pictures/apache-tomcat-7.0.72/endorsed
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=/Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=/Users/wangliang/Pictures/apache-tomcat-7.0.72
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=/Users/wangliang/Pictures/apache-tomcat-7.0.72/temp
+十月 25, 2016 10:47:06 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/wangliang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+十月 25, 2016 10:47:06 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:47:06 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 667 ms
+十月 25, 2016 10:47:06 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十月 25, 2016 10:47:06 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.72
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deploying web application archive /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/jspatch-v0.0.5.war
+十月 25, 2016 10:47:06 上午 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+信息: validateJarFile(/Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/jspatch-v0.0.5/WEB-INF/lib/javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+十月 25, 2016 10:47:06 上午 org.apache.catalina.deploy.WebXml setVersion
+警告: Unknown version string [3.1]. Default version will be used.
+十月 25, 2016 10:47:06 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十月 25, 2016 10:47:07 上午 org.apache.catalina.startup.HostConfig deployWAR
+信息: Deployment of web application archive /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/jspatch-v0.0.5.war has finished in 472 ms
+十月 25, 2016 10:47:07 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/docs
+十月 25, 2016 10:47:07 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/docs has finished in 58 ms
+十月 25, 2016 10:47:07 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/examples
+十月 25, 2016 10:47:07 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/examples has finished in 273 ms
+十月 25, 2016 10:47:07 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/host-manager
+十月 25, 2016 10:47:07 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/host-manager has finished in 44 ms
+十月 25, 2016 10:47:07 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/manager
+十月 25, 2016 10:47:07 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/manager has finished in 43 ms
+十月 25, 2016 10:47:07 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/ROOT
+十月 25, 2016 10:47:07 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /Users/wangliang/Pictures/apache-tomcat-7.0.72/webapps/ROOT has finished in 34 ms
+十月 25, 2016 10:47:07 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 10:47:07 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 10:47:07 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 1034 ms
+pushd /mnt/webapps/jspatch-v0.0.5/patchfile && git pull && popd
+java.io.FileNotFoundException: /mnt/webapps/jspatch-v0.0.5/patchfile/update.do/1.0.js (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.dhgh.jspatch.util.ReadFromFile.readFile(ReadFromFile.java:19)
+	at com.dhgh.jspatch.util.JSReader.getJsPatch(JSReader.java:44)
+	at com.dhgh.jspatch.servlet.JSServlet.doGet(JSServlet.java:31)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1083)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:640)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+pushd /mnt/webapps/jspatch-v0.0.5/patchfile && git pull && popd
+java.io.FileNotFoundException: /mnt/webapps/jspatch-v0.0.5/patchfile/jspatch/patchfile/1.0.js (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.dhgh.jspatch.util.ReadFromFile.readFile(ReadFromFile.java:19)
+	at com.dhgh.jspatch.util.JSReader.getJsPatch(JSReader.java:44)
+	at com.dhgh.jspatch.servlet.JSServlet.doGet(JSServlet.java:31)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1083)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:640)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+java.io.FileNotFoundException: /mnt/webapps/jspatch-v0.0.5/patchfile/jspatch/patchfile/1.0.js (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.dhgh.jspatch.util.ReadFromFile.readFile(ReadFromFile.java:19)
+	at com.dhgh.jspatch.util.JSReader.getJsPatch(JSReader.java:44)
+	at com.dhgh.jspatch.servlet.JSServlet.doGet(JSServlet.java:31)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1083)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:640)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+java.io.FileNotFoundException: /mnt/webapps/jspatch-v0.0.5/patchfile/jspatch/patchfile/1.0.js (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.dhgh.jspatch.util.ReadFromFile.readFile(ReadFromFile.java:19)
+	at com.dhgh.jspatch.util.JSReader.getJsPatch(JSReader.java:44)
+	at com.dhgh.jspatch.servlet.JSServlet.doGet(JSServlet.java:31)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1083)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:640)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+十月 25, 2016 11:01:44 上午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+十月 25, 2016 11:01:44 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 11:01:44 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 11:01:44 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+十月 25, 2016 11:01:44 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 11:01:44 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+十月 25, 2016 11:01:44 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8080"]
+十月 25, 2016 11:01:44 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]
