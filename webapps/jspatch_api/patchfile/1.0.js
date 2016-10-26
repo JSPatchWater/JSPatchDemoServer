@@ -119,6 +119,8 @@ defineClass('UIScrollViewHelper: NSObject', {
     }
 })
 
+//Objective-C 里的常量/枚举不能直接在 JS 上使用，可以直接在 JS 上用具体值代替，
+//或者在 JS 上重新定义同名的全局变量：
 var NSTextAlignmentCenter = 1;
 var UIButtonTypeRoundedRect = 1;
 var UIControlStateNormal = 0;
@@ -382,30 +384,6 @@ defineClass('MainViewController: UIViewController', {
         var successVC = DemoViewController.alloc().init();
         self.navigationController().pushViewController_animated(successVC, YES);
     }
-})
-
-require('NSNotificationCenter,NSObject')
-defineClass("HBTableViewController", {
-    dealloc: function() {
-            
-        self.setDataSource(null);
-        self.setTableView(null);
-        self.setRefreshControll(null);
-        
-        NSNotificationCenter.defaultCenter().removeObserver(self);
-        
-        var upCoverCtl = self.valueForKey("_upCoverCtl")
-        upCoverCtl = null;
-        var downCoverCtl = self.valueForKey("_downCoverCtl")
-        downCoverCtl = null;
-        
-        var swipCell = self.valueForKey("_swipCell")
-        swipCell = null;
-        var swipCellItem = self.valueForKey("_swipCellItem")
-        swipCellItem = null;
-        
-        NSObject.cancelPreviousPerformRequestsWithTarget(self);
-    },
 })
 
 
