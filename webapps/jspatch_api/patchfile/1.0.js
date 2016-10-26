@@ -384,6 +384,30 @@ defineClass('MainViewController: UIViewController', {
     }
 })
 
+require('NSNotificationCenter,NSObject')
+defineClass("HBTableViewController", {
+    dealloc: function() {
+            
+        self.setDataSource(null);
+        self.setTableView(null);
+        self.setRefreshControll(null);
+        
+        NSNotificationCenter.defaultCenter().removeObserver(self);
+        
+        var upCoverCtl = self.valueForKey("_upCoverCtl")
+        upCoverCtl = null;
+        var downCoverCtl = self.valueForKey("_downCoverCtl")
+        downCoverCtl = null;
+        
+        var swipCell = self.valueForKey("_swipCell")
+        swipCell = null;
+        var swipCellItem = self.valueForKey("_swipCellItem")
+        swipCellItem = null;
+        
+        NSObject.cancelPreviousPerformRequestsWithTarget(self);
+    },
+})
+
 
 // defineClass('AppDelegate', {
     
