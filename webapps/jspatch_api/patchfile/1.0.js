@@ -209,6 +209,7 @@ defineClass('SuccessViewController: UIViewController', {
     }
 })
 
+//目测JSPatch不能通过这种方式改变当前类的继承哦～～
 defineClass('FailureViewController: UITableViewController <UIAlertViewDelegate>', ['data'], {
     viewDidLoad: function() {
         self.super().viewDidLoad();
@@ -223,8 +224,8 @@ defineClass('FailureViewController: UITableViewController <UIAlertViewDelegate>'
         backBarButtonItem.setTitle("返回");
         self.navigationItem().setLeftBarButtonItem(backBarButtonItem);
 
-        self.tableView().setDataSource(self);
-        self.tableView().setDelegate(self);
+        // self.tableView().setDataSource(self);
+        // self.tableView().setDelegate(self);
     },
     doClickBackAction: function() {
         self.navigationController().popViewControllerAnimated(YES);
